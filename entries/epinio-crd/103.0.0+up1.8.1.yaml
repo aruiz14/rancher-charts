@@ -1,0 +1,14 @@
+annotations:
+  catalog.cattle.io/certified: rancher
+  catalog.cattle.io/hidden: "true"
+  catalog.cattle.io/namespace: cattle-epinio-system
+  catalog.cattle.io/release-name: epinio-crd
+apiVersion: v2
+created: "2024-07-18T19:05:45.965076633-03:00"
+description: Installs the CRDs for Epinio.
+digest: 4a6e3bc962ceaab8bd524fb18fe032a1e620dfbf31178185aeb9582e56cf3a4b
+name: epinio-crd
+type: application
+urls:
+- oci://localhost:6000/epinio-crd:103.0.0_up1.8.1
+version: 103.0.0+up1.8.1

@@ -1,0 +1,15 @@
+annotations:
+  catalog.cattle.io/certified: rancher
+  catalog.cattle.io/hidden: "true"
+  catalog.cattle.io/namespace: cattle-elemental-system
+  catalog.cattle.io/release-name: elemental-operator-crds
+apiVersion: v2
+appVersion: 1.7.3
+created: "2025-07-10T17:36:39.066054583+02:00"
+description: A Helm chart for deploying Rancher Elemental Operator CRDs
+digest: faf04e5f128e9a7096560bb7e9201476b0b11fc5cec8b54d639ca03766200cb4
+name: elemental-crd
+type: application
+urls:
+- oci://localhost:6000/elemental-crd:107.1.0_up1.7.3
+version: 107.1.0+up1.7.3

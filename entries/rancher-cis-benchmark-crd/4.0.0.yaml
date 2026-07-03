@@ -1,0 +1,14 @@
+annotations:
+  catalog.cattle.io/certified: rancher
+  catalog.cattle.io/hidden: "true"
+  catalog.cattle.io/namespace: cis-operator-system
+  catalog.cattle.io/release-name: rancher-cis-benchmark-crd
+apiVersion: v1
+created: "2025-11-24T10:58:29.62902832-03:00"
+description: Installs the CRDs for rancher-cis-benchmark.
+digest: e88bea26b1c09bc5fd651fec2a661a4c3e63260eccb17695eefaa1d83f30563b
+name: rancher-cis-benchmark-crd
+type: application
+urls:
+- oci://localhost:6000/rancher-cis-benchmark-crd:4.0.0
+version: 4.0.0

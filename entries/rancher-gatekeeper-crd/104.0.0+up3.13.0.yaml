@@ -1,0 +1,14 @@
+annotations:
+  catalog.cattle.io/certified: rancher
+  catalog.cattle.io/hidden: "true"
+  catalog.cattle.io/namespace: cattle-gatekeeper-system
+  catalog.cattle.io/release-name: rancher-gatekeeper-crd
+apiVersion: v1
+created: "2024-01-02T15:46:18.062134-03:00"
+description: Installs the CRDs for rancher-gatekeeper.
+digest: 0577f6ab24c40eb2625e8e537cdc11c5a271e9609d4364bd8568562f015a7de2
+name: rancher-gatekeeper-crd
+type: application
+urls:
+- oci://localhost:6000/rancher-gatekeeper-crd:104.0.0_up3.13.0
+version: 104.0.0+up3.13.0

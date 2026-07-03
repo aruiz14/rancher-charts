@@ -1,0 +1,21 @@
+annotations:
+  catalog.cattle.io/certified: rancher
+  catalog.cattle.io/hidden: "true"
+  catalog.cattle.io/kube-version: '>= 1.25.0-0 < 1.38.0-0'
+  catalog.cattle.io/managed: "true"
+  catalog.cattle.io/namespace: cattle-system
+  catalog.cattle.io/os: linux
+  catalog.cattle.io/permits-os: linux,windows
+  catalog.cattle.io/rancher-version: '>= 2.16.0-0 < 2.17.0-0'
+  catalog.cattle.io/release-name: system-upgrade-controller
+apiVersion: v1
+appVersion: v0.20.2
+created: "2026-10-27T10:18:12.881376+05:30"
+description: General purpose controller to make system level updates to nodes.
+digest: 2d5a410495f1c95a5bdeb267f3a9ba2066b1db29fedfb69c1aa4d9a7f4e1869f
+home: https://github.com/rancher/system-upgrade-controller
+kubeVersion: '>= 1.25.0-0'
+name: system-upgrade-controller
+urls:
+- oci://localhost:6000/system-upgrade-controller:111.0.0
+version: 111.0.0

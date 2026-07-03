@@ -1,0 +1,23 @@
+annotations:
+  catalog.cattle.io/certified: rancher
+  catalog.cattle.io/hidden: "true"
+  catalog.cattle.io/managed: "true"
+  catalog.cattle.io/namespace: cattle-system
+  catalog.cattle.io/os: linux
+  catalog.cattle.io/permits-os: linux,windows
+  catalog.cattle.io/rancher-version: '>= 2.11.0-0'
+  catalog.cattle.io/release-name: remotedialer-proxy
+  helm.sh/images: |
+    - name: remotedialer-proxy
+      image: rancher/remotedialer-proxy:v0.9.1-rc.2
+apiVersion: v2
+appVersion: 0.9.1-rc.2
+created: "2026-11-06T22:54:24.786882588Z"
+description: creates a bridge between k8s api-server and imperative api when Rancher
+  is outside of the cluster
+digest: 0db22c52f6544a0930e8d9cb78521698b215fd86ae0264b56e8a13765c072c81
+name: remotedialer-proxy
+type: application
+urls:
+- oci://localhost:6000/remotedialer-proxy:111.0.0_up0.9.1-rc.2
+version: 111.0.0+up0.9.1-rc.2
